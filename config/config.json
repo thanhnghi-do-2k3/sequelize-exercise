@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "sequelize_umdd_user",
+    "password": "6vYWPscc5VPwJ9MdCC9ErKX3wUFf3OjX",
+    "database": "sequelize_umdd",
+    "host": "dpg-cp2h9sev3ddc73cm9jrg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "sequelize_umdd_user",
+    "password": "6vYWPscc5VPwJ9MdCC9ErKX3wUFf3OjX",
+    "database": "sequelize_umdd",
+    "host": "dpg-cp2h9sev3ddc73cm9jrg-a.singapore-postgres.render.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "sequelize_umdd_user",
+    "password": "sequelize_umdd_user",
+    "database": "sequelize_umdd",
+    "host": "dpg-cp2h9sev3ddc73cm9jrg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
